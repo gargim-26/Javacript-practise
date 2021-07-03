@@ -9,18 +9,16 @@
 </head>
 
 <body>
-    <h2>Javascript const</h2>
+    <h2>Javascript data type</h2>
+    <p>Javascript has dynamic types.This means that the same variable can be used to hold different data types</p>
     <p id="demo"></p>
     <script>
-        try {
-            const PI = 3.145880090; s
-            PI = 3.14;
-        }
+        let x; //Now x is undefined
+        x = 5;  //Now is a number
+        x = "john";
+        document.getElementById("demo").innerHTML = x;
 
-        catch (err) {
-            document.getElementById("demo").innerHTML = err;
 
-        }
     </script>
 </body>
 
